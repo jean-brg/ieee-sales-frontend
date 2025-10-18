@@ -101,6 +101,7 @@ export default function Home() {
         <header className="h-screen flex relative flex-col justify-center items-center text-white text-center px-4 bg-no-repeat bg-cover" style={{backgroundImage: "url('bg.jpg')"}}>
             <div className="bg-ieee-blue opacity-50 absolute inset-0"></div>
             <h1 className={`text-7xl font-medium z-0 ${spaceGrotesk.className}`}>Official IEEE Store</h1>
+            <p className={`text-3xl z-0 mt-2 ${spaceGrotesk.className}`}>Get your merch and snacks!</p>
         </header>
 
         <main className={`bg-ieee-gray p-4 w-full mx-auto ${spaceGrotesk.className}`}>
